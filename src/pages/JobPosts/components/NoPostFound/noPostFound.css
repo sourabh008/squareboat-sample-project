@@ -1,0 +1,17 @@
+.no-post-found-wrapper{
+    display:flex ;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10%;
+    height: 25%;
+}
+.no-post-found-wrapper button{
+    background-color: #43AFFF;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.no-post-found-wrapper .content{
+    font-size: 20px !important;
+    color: #303F60 !important;
+}

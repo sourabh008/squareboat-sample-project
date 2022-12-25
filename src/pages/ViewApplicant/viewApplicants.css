@@ -1,0 +1,60 @@
+.View-applicants{
+    min-height: 65vh;
+   min-width: 694px;
+   max-width: 694px;
+   overflow: auto;
+}
+@media screen and (max-width: 750px) {
+    .View-applicants{
+        max-width: 330px;
+        min-width: 330px;
+    }
+    /* right: calc(100vw - 90%); */
+}
+.popup-content{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 5%;
+}
+.popup-header{
+    display: flex;
+    justify-content: space-between;
+}
+.popup-header img{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+.popup-heading{
+    color: #303F60;
+    font-size: 19px;
+}
+.popup-baseline{
+    width: 100%;
+    margin-top: 2%;
+    border: 0px;
+    border-bottom: 0.5px solid #303F6080;
+    opacity: 0.4;
+}
+.applicants-count{
+color: #303F60;
+font-size: 15px;
+}
+.applicants-wrapper{
+    height: 70vh;
+    width: 100%;
+    background-color: #dde0e680;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+.applicants-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 2%;
+}
+.MuiPaper-elevation{
+    border-radius: 20px;
+}

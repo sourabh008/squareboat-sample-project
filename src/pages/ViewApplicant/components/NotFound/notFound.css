@@ -1,0 +1,19 @@
+.no-applicants-found-wrapper{
+    display:flex ;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0 auto;
+    margin-top: 35%;
+}
+.no-applicants-found-wrapper button{
+    background-color: #43AFFF;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.no-applicants-found-wrapper .content{
+    font-size: 20px !important;
+    color: #303F60 !important;
+    opacity: 0.8;
+    margin-top: 2%;
+}

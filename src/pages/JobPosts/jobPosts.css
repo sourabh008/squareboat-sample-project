@@ -1,0 +1,42 @@
+.job-posts{
+    height: 98vh;
+}
+.job-posts .top-section{
+    height: 30%;
+}
+.job-posts .bottom-section{
+    min-height: 88%;
+    background: none;
+    /* position: relative; */
+}
+.job-posts .header{
+    height: 17%;
+}
+.job-list-wrapper{
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    width: 82%;
+}
+.job-list-title{
+    margin-bottom: 1% !important;
+    margin-left: 3% !important;
+    font-size: 22px !important;
+    color: white;
+}
+.home-nav{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1% !important;
+    margin-left: 3% !important;
+}
+.home-nav-button{
+    font-size: 12px !important;
+    color: white !important;
+    margin-left: 4px !important;
+}
+.MuiPagination-root{
+    position: relative;
+    bottom: 30px;
+    left:27%
+}

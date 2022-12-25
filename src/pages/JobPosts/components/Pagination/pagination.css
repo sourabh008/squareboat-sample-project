@@ -1,0 +1,44 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-left: 40%;
+  }
+  
+  .increment {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    height: 6px;
+    width: 6px;
+  }
+  .pagination img{
+    height:25px;
+    width: 25px;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .pagination div{
+    height: 25px;
+    width: 25px;
+    background-color: #43AFFF33;
+    color:black;
+    display: flex;
+    align-items: center;
+    
+    /* margin: 0 auto; */
+  }
+  .pagination div p{
+    margin:0 auto   
+  }
+  
+  .decrement {
+    /* background-color: #4CAF50; */
+    color: white;
+    height: 6px;
+    width: 6px;
+    padding: 8px 16px;
+
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}

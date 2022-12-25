@@ -1,0 +1,50 @@
+.login-page{
+    height: 98vh;
+    position: relative;
+}
+.login-form{
+    position: absolute;
+    height: 427px;
+    max-width: 427px;
+    top: 20%;
+    left: calc(100vw - 90%);
+    right: calc(100vw - 90%);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 30px 36px #557DA526;
+}
+@media screen and (min-width: 680px) {
+    .login-form{
+    left: 30%;
+    }
+    /* right: calc(100vw - 90%); */
+}
+.input-field{
+    width: 80%;
+    height: 12%;
+}
+.login-heading{
+    margin-top: 7% !important;
+    margin-left: 10% !important;
+    font-size:22px;
+    color: #303F60;
+    font-weight: bold !important;
+    margin-bottom: 3% !important;
+}
+.login-form .button{
+    width: 15%;
+    margin-left: 31%;
+    margin-top: 5%;
+    background-color: #43AFFF;
+    border: 1px solid #43AFFF;
+    text-transform: capitalize;
+    width: 128px;
+}
+
+.MuiSnackbarContent-root{
+    background-color:white !important;
+    color: #43AFFF !important;
+    height: 50px;  
+}

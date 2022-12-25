@@ -1,0 +1,17 @@
+.logout-menu{
+    display: flex;
+    align-items: center;
+    width: 112px;
+    height: 47px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top:37px;
+    right: -4px;
+    border-radius: 5px;
+    background-color: white;
+}
+.logout-button{
+    font-size: 14px !important;
+    margin-left: 8% !important;
+}
